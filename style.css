@@ -11,6 +11,57 @@
  <title>your name</title>
 </head>
 <body>
+@import url('');
+
+body {
+  font-family: Roboto; sans-serif;
+  background: linear-gradient( rgba(195, 174, 214, 1) ,rgba(10, 66, 169, 1));
+  color: blue;
+}
+
+h1, h2, h3, h4 {
+ color: purple;
+ font-family: 'RocknRoll One', sans-serif;
+}
+
+h1 {
+  text-shadow:purple 1px 0 10px;
+  color : white;
+  text-align: center;
+}
+
+}
+#profile {
+  border-radius: 200%;
+ 
+}
+
+li {
+  list-style-type: circle;
+}
+
+div{
+  margin-top: 1px;
+  margin-bottom: 16px;
+  border-top : 1px solid;
+  margin : 10px 20px;
+  padding: 20px;
+  background-color : white;
+  border-radius : 10px;
+
+}
+
+.card {
+  background-color: white;
+  margin: 20px;
+  padding: 30px;
+  border-radius: 8px;
+ 
+}
+
+a:visited {
+  color: #blue;
+}
 
  <!-- COPIER/COLLER CODE HTML ICI -->
  <h1>Isaure</h1>
